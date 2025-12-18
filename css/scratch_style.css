@@ -1,0 +1,39 @@
+/* Custom Background Color */
+body {
+    background-color: #f4f4f9; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Div 1 Styling */
+.resume-header {
+    background-color: #003366; /* Dark Navy */
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.back-link {
+    color: #ffcc00; /* Yellow link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Div 2 Styling */
+.resume-content {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto; /* Centers the div */
+    padding: 40px;
+    border: 2px solid #003366;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Div 3 Styling */
+.resume-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

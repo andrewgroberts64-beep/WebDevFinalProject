@@ -1,0 +1,25 @@
+:root {
+    /* 1. Define the new Darker Blue (Navy) */
+    /* Hex Code: #003366 */
+    --bs-primary: #003366; 
+    
+    /* 2. IMPORTANT: The RGB numbers for #003366 */
+    /* This allows Bootstrap to make the color transparent when needed */
+    --bs-primary-rgb: 0, 51, 102;
+
+    /* 3. Update Link Colors */
+    --bs-link-color: #003366;
+    
+    /* 4. Make the link even darker when you hover over it */
+    --bs-link-hover-color: #002244; 
+}
+
+/* 5. Force Social Icons to be Dark Blue on Hover */
+.social-icons .social-icon:hover {
+    background-color: #003366 !important;
+}
+
+/* 6. Force the active Nav link to be Dark Blue */
+#sideNav .navbar-nav .nav-item .nav-link.active {
+    color: #003366 !important;
+}
